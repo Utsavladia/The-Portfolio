@@ -17,6 +17,7 @@ import {
   docker,
   cake,
   cakepage,
+  newsapp,
   digitalcare,
   jobit,
   tripguide,
@@ -121,12 +122,14 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2023 - July 2023",
     points: [
-      "Developed and maintained web applications using React.js and other related technologies.",
-      "Developed new features for thee website and made it smooth for the user",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Handeled the changes according to the requirement",
+      "Developed customized web application using React.js as frontend and firebase as backend for the bakers brand.",
+      "Added features like filters and searching of products.",
+      "Smooth and easy ordering with customisation and authentication.",
+      "Implemented responsive and attractive design and ensured cross-browser compatibility.",
+      "control panel that enables the website owner or administrator to manage and oversee various aspects of their website.",
     ],
-  }
+    link: "https://sawariyabakers.vercel.app",
+  },
 ];
 
 const testimonials = [
@@ -176,7 +179,28 @@ const projects = [
       },
     ],
     image: cakepage,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Utsavladia/cake-shop",
+  },
+  {
+    name: "News app",
+    description:
+      "A new website that have AI voice control can search the news using the command and read the headlines for user.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Alan AI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: newsapp,
+    source_code_link: "https://github.com/Utsavladia/News-Website",
   },
   {
     name: "Digital Caretaker",
@@ -197,8 +221,7 @@ const projects = [
   },
   {
     name: "Website Clones",
-    description:
-      "Developed various webpages clones like amazon, myntra.",
+    description: "Developed various webpages clones like amazon, myntra.",
     tags: [
       {
         name: "Html",
@@ -216,7 +239,6 @@ const projects = [
     image: amazonpage,
     source_code_link: "https://github.com/",
   },
-  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

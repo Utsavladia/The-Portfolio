@@ -22,13 +22,14 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import cake from "./company/cake.png";
-import cakepage from "./cakepage.png";
+import cakepage from "./cakepage1.png";
 import digitalcare from "./digitalcare.png";
 import amazonpage from "./amazonpage.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import newsapp from "./newsapp.png";
 
 export {
   logo,
@@ -54,6 +55,7 @@ export {
   threejs,
   cake,
   cakepage,
+  newsapp,
   carrent,
   jobit,
   tripguide,

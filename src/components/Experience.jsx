@@ -51,6 +51,9 @@ const ExperienceCard = ({ experience }) => {
             {point}
           </li>
         ))}
+        <li className="text-white-100 text-[14px] pl-1 tracking-wider">
+          <a href={experience.link}>Deployed link ..</a>
+        </li>
       </ul>
     </VerticalTimelineElement>
   );
